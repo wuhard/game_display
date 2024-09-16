@@ -1,0 +1,85 @@
+(function anonymous(context
+) {
+/*
+	Index: 802
+	Path:  game_utils/Easings.easeOutCircular
+	Type:  Public
+	Kind:  Method
+	Super: -
+	Return: 7 0::Number
+*/
+
+const AX_CLASS_SYMBOL = context.AX_CLASS_SYMBOL;
+
+     /* e */
+     const __Math = context.getTopLevel(0)['$BgMath']; // :Math
+
+    return function compiled_easeOutCircular(local1 /* Number */, local2 /* Number */, local3 /* Number */, local4 /* Number */) {
+        // Possible use a real "this"
+        /* Force Number coerce */
+        local1 = (+local1);
+        /* Force Number coerce */
+        local2 = (+local2);
+        /* Force Number coerce */
+        local3 = (+local3);
+        /* Force Number coerce */
+        local4 = (+local4);
+        // local5 is assigned before read, skip init
+        let local5 = undefined
+        let stack0 = undefined;
+        let stack1 = undefined;
+        let stack2 = undefined;
+        let stack3 = undefined;
+        let stack4 = undefined;
+        let scope0 = undefined;
+        let temp = undefined;
+        let sec = context.sec;
+        let $names = context.names;
+
+        
+        stack0 = this;
+        scope0 = context.savedScope.extend(this);
+        // JIT: potential type:7 0::Number
+        stack0 = local3;
+        // 7 0::Math
+        /* GenerateLexImports GETLEX */
+//        stack1 = __Math;// JIT: redundant assigment, value unused
+        stack2 = 1;
+        // JIT: potential type:7 0::Number
+        stack3 = local1;
+//        // JIT: potential type:7 0::Number// JIT: redundant assigment, value unused
+        stack4 = local4;
+        stack3 /= local4;
+        stack3--;
+        stack4 = stack3;
+        local5 = stack4;
+        stack3 = +stack3;
+        local1 = stack3;
+        stack3 = local5;
+        //IR: KILL removed, reason: prevent optimisation
+//        // JIT: potential type:7 0::Number// JIT: redundant assigment, value unused
+        stack4 = local1;
+        stack3 *= local1;
+        stack2 -= stack3;
+        if (!(_a = typeof __Math, ((_a !== 'object' && _a !== 'function' ) || __Math == null || __Math[AX_CLASS_SYMBOL]))) {
+           stack1 = __Math.sqrt(stack2);
+        } else {
+            // 7 0::sqrt
+            {
+                let t = __Math;
+                const m = t.$Bgsqrt || (t = sec.box(__Math), t.$Bgsqrt);
+                if( typeof m === "function" ) { 
+                    stack1 = t.$Bgsqrt (stack2);
+                } else { 
+                    stack1 = __Math.axCallProperty($names[1], [stack2], false);
+                }
+            }
+        }
+        stack0 *= stack1;
+//        // JIT: potential type:7 0::Number// JIT: redundant assigment, value unused
+        stack1 = local2;
+        stack0 += local2;
+        return (+stack0);
+    }
+//# sourceURL=http://jit/game_utils/Easings/easeOutCircular.js
+})

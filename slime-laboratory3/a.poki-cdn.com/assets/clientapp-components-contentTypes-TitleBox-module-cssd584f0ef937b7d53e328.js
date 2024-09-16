@@ -1,0 +1,1 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[5922],{4235:(_,e,t)=>{t.r(e),t.d(e,{titleBox__developer:()=>r,titleBox__titleText:()=>l,titleBox__wrapper:()=>o,titleBox__wrapper_hasDeveloper:()=>p});var r="sgofAkt_uQfOQ3YZvXBq",l="WkgGPoj56g0c5Rdpt85Z",o="V1p5wIzdoQ_efy5r0jKb",p="eVrsZ3G2gCE_CChlXGYj"}}]);
