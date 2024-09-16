@@ -1,1 +1,0 @@
-No Content: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js
